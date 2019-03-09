@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	    <title>1</title>
+</head>
+<body>
+<div id="demo"></div>
+</body>
+</html>
+<script>
+var bio = {
+        	"name" : "Annisa Rizky Wardani",
+	        "address" : "Lampung Timur",
+	        "hobbies" : ["reading", "travelling"],
+        	"is_married" :  false,
+        	"school" : {
+	                 	"highSchool" : "SMA Negeri 1 Way Jepara", 
+                    "university" : "Universitas Sebelas Maret Surakarta"
+        	},
+        	"skills" : [{"name" : "Microsoft Office", "score" : 4},
+        	]
+};
+
+var x=JSON.stringify(bio);
+document.getElementById("demo").innerHTML = x;
+</script>
