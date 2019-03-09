@@ -1,1 +1,1 @@
-# B9K2F
+bisa diakses melalui notepad
